@@ -1,0 +1,13 @@
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\bin\Debug\netcoreapp3.0\Strategy Pattern First Look.exe
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\bin\Debug\netcoreapp3.0\Strategy Pattern First Look.deps.json
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\bin\Debug\netcoreapp3.0\Strategy Pattern First Look.runtimeconfig.json
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\bin\Debug\netcoreapp3.0\Strategy Pattern First Look.runtimeconfig.dev.json
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\bin\Debug\netcoreapp3.0\Strategy Pattern First Look.dll
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\bin\Debug\netcoreapp3.0\Strategy Pattern First Look.pdb
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\obj\Debug\netcoreapp3.0\Strategy Pattern First Look.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\obj\Debug\netcoreapp3.0\Strategy Pattern First Look.AssemblyInfoInputs.cache
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\obj\Debug\netcoreapp3.0\Strategy Pattern First Look.AssemblyInfo.cs
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\obj\Debug\netcoreapp3.0\Strategy Pattern First Look.csproj.CoreCompileInputs.cache
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\obj\Debug\netcoreapp3.0\Strategy Pattern First Look.dll
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\obj\Debug\netcoreapp3.0\Strategy Pattern First Look.pdb
+D:\Documents\C#\Proyectos\Design-Patterns\Behavioral\Strategy\Demo 1 - Strategy Pattern First Look\Completed\obj\Debug\netcoreapp3.0\Strategy Pattern First Look.genruntimeconfig.cache

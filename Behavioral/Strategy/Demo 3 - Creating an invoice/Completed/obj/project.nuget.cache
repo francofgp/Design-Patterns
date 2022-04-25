@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "K2duo7G2zbOykK0K2TUnRTZXSHxCq7DX2vbOT3Z8JSUBZdpMA1jKfnBFEfBEue9J8A71TgqrmhgM5KLdtI1YBg==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\C#\\Proyectos\\Design-Patterns\\Behavioral\\Strategy\\Demo 3 - Creating an invoice\\Completed\\Strategy Pattern Creating an invoice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0ccc907a-a680-4352-abdb-fa6f2589305c": {
+      "ProjectGuid": "0ccc907a-a680-4352-abdb-fa6f2589305c",
+      "DisplayName": "Strategy Pattern An alternative approach",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
