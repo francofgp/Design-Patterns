@@ -8,20 +8,44 @@ The basic idea behind this pattern is that when you have some piece of domain kn
 - In-memory validation
 - Retrieving data from the database
 - Construction-to-order
+- Creation of new objects
 
 ## Advantages
 
 - Avoid domain knowledge duplication
 - Enables declarative approach
-![Uml Diagram](/Behavioral/Null%20Object/assets/uml.png)
 
+
+## Purpose of the specification pattern:
+- Encapsulate domain knowledge into a single unit
+- Reuse in various scenarios
+
+![Uml Diagram](/Behavioral/Specification/assets/uml.png)
+
+
+## Proper encapsulation and efficient database queries
+- Specifications should contain the domain
+knowledge
+
+## General guidelines
+- Don’t use the ISpecification interface
+- Make specifications as specific as possible
+- Make specifications immutable
+
+## Combining specifications together
+- And, Or, and Not
+- Identity specification
+
+## When not to use the Specification pattern
+- Code base is simple enough
 
 
 **If you think the Null Object Pattern as the "Default object pattern", it makes more sense, at least to me. Basically is just an object with default properties, non-null properties, to be precice**
 
 ## Examples
 
-Examples are provided:
+Examples are provided
 
-- Before apply Null Object
-- After apply Null Object
+- Initial
+- Second refactoring
+- Final refactoring
