@@ -34,6 +34,14 @@ It addresses
 - Less difficult to debug
 - More extensible
 
+## Disadvantages
+
+- Takes time to set up
+- More moving parts
+- Potentially less performant
+
+
+**The State Design Pattern is a great addition to your developer’s toolkit.**
 ### They naive approach
 
 There is a naive way to handle states, this way consists in adding boolean fields, such as: isProcessed, isPending, isFinished, and so on, depending of how many states we have.
