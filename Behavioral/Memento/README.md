@@ -59,6 +59,11 @@ One common way to manage mementos in the caretaker is to keep a strack of previo
 - Memento may not be appropriate if state is quite large
 - Can be difficult to encapsulate memento state so only Originator can access it
 
+
+## Key Principles when applying Memento
+- Enforce Single Responsibility Principle
+- Avoids violating Encapsulation
+  
 ## Alternate Approach
 
 ### Reverse Operations
@@ -81,7 +86,8 @@ Command
 
 Iterator
 - Each iteration can store its state using a Memento
-- 
+  
+
 ## Examples
 
 Hangman Game with Memento implemented.
