@@ -1,55 +1,57 @@
 # Adapter 
 
 
-A structural design pattern used for dynamically adding behavior to a class, without making changes to that class.
+## Understanding the problem
+
+Incompatible interfaces between a client and a service-provider.
+
+## Real world example
+
+- Electrical outlets provide electricity
+- United States’ outlets have a specific interface and voltage
+- Other countries have differing interfaces
+- Appliances with one kind of plug may not be able to (safely) use incompatible outlets
+
+An **adapter** is used to allow devices with incompatible interfaces to work together
+A specific adapter works between two specific interfaces
 
 
-![Uml Diagram2](/Structural/Decorator/assets/uml.png)
+**Adapters convert the interface of one class into an interface a client expects.** 
 
 
 
-## Example explanation
+## Kind of adapters
 
-In the example solution, we will have a IWeatherService interface with one concrete class and two decorator classes.
+### Object Adapters
+- Hold an instance of the Adaptee
+- Implement or Inherit the Adapter type
+- Use composition and single inheritance
 
-![Uml Diagram2](/Structural/Decorator/assets/example.png)
+*Object adapters*
+![Uml Diagram2](/Structural/Adapter/assets/objectAdapter.png)
 
-- LogginDecorator: Log how often a method was called, how long it took parameters and response
 
-- CachingDecorator: Cache weather conditions, forecasts for a city to reduce the number of external API calls
+### Class Adapters
+- Inherit from the Adaptee
+- Inherit from the Adapter type
+- Require multiple inheritance
 
-Examples are provided in the *decorator folder*
+*Multiple inheritance*
+![Uml Diagram2](/Structural/Adapter/assets/classAdapter.png)
 
-### Using Decorator Objects
-```cs
-// Standard component instantiation
-IWeatherService weatherService = new WeatherService();
+## Key takeaways
 
-// Instantiation with decorator objects
-IWeatherService weatherService =
-                new CachingDecorator(
-                    new LoggingDecorator(
-                        new WeatherService()));
-
-```
-## To keep in mind
-
-- Multiple decorators can be used in conjunction with one another
-- Each decorator can focus on a single task, promoting separation of concerns
-- Decorator classes allow functionality to be added dynamically
-
-## Use Cases
-- Cross cutting concerns (i.e. logging)
-- Manipulate data going to/from component
-  
+- An adapter converts an incompatible interface into a compatible one
+- In C#, the adapter pattern uses composition and is known as an object adapter
+- Adapters are similar to many other design patterns
+- Adapters can work with service providers but can also wrap result types
 
 ## Examples
 
-The following examples are provided:
+An example is provided in sequential steps
 
-1. Initial Project
-2. Logging decorator added
-3. Caching decorator added
-4. Dependency injection initial state
-5. Dependency injection - Scrutor
-5. Dependency injection - Lambda Function
+1. Initial 
+2. Two provider
+3. Two provider classes
+4. Adapter introduction
+5. Add dependecy injention
