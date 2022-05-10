@@ -35,6 +35,24 @@ resource were local
 
 
 - Smart Proxy: It permorms additional actions when a resource is accessed.
-
+  - Performs additional logic around resource
+access
+  - Resource counting
+  - Cache management
+  - Locking shared resources
 
 - Protective Proxy: It controls accesss to a sensitive resource by checking for whether or not the client is authorized to perform those operations.
+  - Manages access to a resource based on
+authorization rules
+  - Eliminates repetitive security checks from
+client code and the resource itself
+  - Acts as a gatekeeper around a resource
+
+## Examples
+
+Examples are provided:
+
+- Remote Proxy
+- Smart Proxy
+- Virtual Proxy
+- Protective Proxy
