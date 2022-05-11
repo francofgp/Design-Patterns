@@ -48,6 +48,20 @@ authorization rules
 client code and the resource itself
   - Acts as a gatekeeper around a resource
 
+
+## To keep in mind
+
+When used properly, proxy implementations help you to follow Separation of Concerns and the Single Responsibility Principle.
+
+## Related Principles
+
+Some principles suggest the use of a Proxy as the solution in certain cases.
+
+- Separation of concerns: Avoid mixing separate
+concerns or ideas in the same class or method
+- Loose Coupling: Prefer loose coupling to third party dependencies
+- Single Responsibility: Classes should have only one responsibility; one reason to change
+
 ## Examples
 
 Examples are provided:
