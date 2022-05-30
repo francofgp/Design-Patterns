@@ -38,7 +38,7 @@ public byte[] ProfilePicture
 ```
 
 
-### Drawbacks
+#### Drawbacks
 
 - The entity is now coupled with logic to load additional data
 
@@ -60,14 +60,60 @@ return ProfilePictureService.GetFor(customer.Name); })
 
 ![uml structure 1](/Behavioral/Data%20Access/Unit%20of%20Work/assets/uml.png)
 
-## Benefits 
-- In high performant environments limiting the communication can be crucial
 
-## Drawbacks
-
-- The entity is now coupled with logic to load additional data
+### Virtual Proxies
 
 
+The repository can map the entity to a proxy class to return to its caller
+This will allow the proxy to intercept calls to a property and load the data when necessary
+
+
+```csharp
+public class CustomerProxy : Customer
+{
+    public override byte[] ProfilePicture
+    {
+    get {
+        if (base.ProfilePicture == null) 
+        { 
+            base.ProfilePicture = ProfilePictureService.GetFor(Name); 
+        }
+        return base.ProfilePicture; 
+        }
+    }
+}
+
+var customer = context.Customers .Single(c => c.CustomerId == entity.CustomerId);
+var proxy = new CustomerProxy
+{
+    Name = customer.Name, City = customer.City, PostalCode = customer.PostalCode, ShippingAddress = customer.ShippingAddress, Country = customer.Country, 
+};
+return proxy;
+
+```
+
+### Ghost Objects
+
+- The entity is loaded in a partial state which
+- It is fully loaded when a property is accessed
+
+
+```csharp
+public class CustomerGhost : Customer
+{
+    public override string Name { 
+        get {
+                Load();
+                return base.Name;
+            }
+        set {
+                Load();
+                base.Name = value;
+            }
+    }
+}
+
+```
 ## Examples
 
 - Before
