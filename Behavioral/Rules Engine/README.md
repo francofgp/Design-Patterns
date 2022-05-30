@@ -4,6 +4,19 @@ A rules engine processes a set of rules and applies them to produce a result.
 
 A rule describes a condition and may calculate a value.
 
+## Table of Contents
+- [Rules Engine](#rules-engine)
+  - [Table of Contents](#table-of-contents)
+  - [Examples of Operations](#examples-of-operations)
+  - [What problems does it solve?](#what-problems-does-it-solve)
+  - [Defining Rules](#defining-rules)
+  - [Rules Engine Collaborators](#rules-engine-collaborators)
+  - [Structure](#structure)
+  - [Implementing a Rules Engine](#implementing-a-rules-engine)
+  - [Examples](#examples)
+
+
+
 ## Examples of Operations
 
 - Scoring games

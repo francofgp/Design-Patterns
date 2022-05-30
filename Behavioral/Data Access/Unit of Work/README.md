@@ -7,6 +7,14 @@ Allows us to referece multiple repositories inside our unit of work class.
 
 When we apply the unit of work pattern in our application, instead of having to talk to the database for each insert or update, we can simple group that in one single transaction
 
+## Table of Contents
+- [Unit of Work](#unit-of-work)
+  - [Table of Contents](#table-of-contents)
+  - [Structure](#structure)
+  - [Benefits](#benefits)
+  - [Drawbacks](#drawbacks)
+  - [Examples](#examples)
+
 ## Structure
 
 ![uml structure 1](/Behavioral/Data%20Access/Unit%20of%20Work/assets/uml.png)

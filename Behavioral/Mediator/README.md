@@ -9,6 +9,12 @@ Mediator is a behavioral design pattern that lets you reduce chaotic dependencie
 
 ![With and without mediator](/Behavioral/Mediator/assets/with.png)
 
+## Table of Contents
+- [Mediator](#mediator)
+  - [Table of Contents](#table-of-contents)
+  - [Components](#components)
+  - [Benefits](#benefits)
+  - [Examples](#examples)
 
 ## Components
 

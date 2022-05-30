@@ -12,6 +12,16 @@ No hierarchical connection is necessary
 
 
 ![visitor uml diagram](/Behavioral/Visitor/assets/uml.png)
+
+## Table of Contents
+- [Visitor](#visitor)
+  - [Table of Contents](#table-of-contents)
+  - [When to use it](#when-to-use-it)
+    - [Use Cases](#use-cases)
+    - [Implications](#implications)
+  - [Examples](#examples)
+
+
 ## When to use it
 
 When a project has several different classes, with different interfaces, that need additional behavior without changing their underlying structure

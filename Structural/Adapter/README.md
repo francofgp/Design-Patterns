@@ -1,5 +1,16 @@
 # Adapter 
 
+## Table of Contents
+- [Adapter](#adapter)
+  - [Table of Contents](#table-of-contents)
+  - [Understanding the problem](#understanding-the-problem)
+  - [Real world example](#real-world-example)
+  - [Kind of adapters](#kind-of-adapters)
+    - [Object Adapters](#object-adapters)
+    - [Class Adapters](#class-adapters)
+  - [Key takeaways](#key-takeaways)
+  - [Examples](#examples)
+
 
 ## Understanding the problem
 

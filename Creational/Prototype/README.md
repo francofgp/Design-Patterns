@@ -13,6 +13,17 @@ Client requests clone of an existing object
 - Cuts down on subclassing
 - Hides cloning implementation
 
+## Table of Contents
+- [Prototype](#prototype)
+  - [Table of Contents](#table-of-contents)
+  - [When to apply the Prototype pattern](#when-to-apply-the-prototype-pattern)
+  - [Use cases](#use-cases)
+  - [Variants](#variants)
+  - [Design Pattern Implications](#design-pattern-implications)
+  - [Examples](#examples)
+
+
+
 ## When to apply the Prototype pattern
 When object creation, composition, and representation needs to be separate from a given system
 

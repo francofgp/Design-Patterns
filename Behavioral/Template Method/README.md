@@ -8,6 +8,16 @@ Subclasses implement these steps.
 
 **"Template methods are a fundamental technique for code reuse."**
 
+
+## Table of Contents
+- [Template Method](#template-method)
+  - [Table of Contents](#table-of-contents)
+  - [Examples of Operations](#examples-of-operations)
+  - [What problems does it solve?](#what-problems-does-it-solve)
+  - [Structure](#structure)
+  - [Examples](#examples)
+
+
 ## Examples of Operations
 
 - Managing a game and determining a winner

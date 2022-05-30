@@ -12,6 +12,17 @@ Shared objects act as an unchanging model
 - Reused as need 
 - Significantly cuts down on storage
 
+## Table of Contents
+- [Flyweight](#flyweight)
+  - [Table of Contents](#table-of-contents)
+  - [Structure](#structure)
+  - [Scenario](#scenario)
+  - [Intrinsic State Simplified](#intrinsic-state-simplified)
+  - [Extrinsic State Explained](#extrinsic-state-explained)
+  - [Flyweight Use Cases](#flyweight-use-cases)
+  - [Design Pattern Implications](#design-pattern-implications)
+  - [Examples](#examples)
+
 
 ## Structure
 

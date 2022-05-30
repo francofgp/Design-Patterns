@@ -5,6 +5,11 @@ Select an implementation at runtime based on user input without having to extend
 ![Uml Diagram](/Behavioral/Strategy/assets/Class-diagram-of-strategy-design-pattern.png)
 The singleton pattern make the class itself responsible for enforcing Singleton behavior
 
+## Table of Contents
+- [Strategy](#strategy)
+  - [Table of Contents](#table-of-contents)
+  - [What did we achieve](#what-did-we-achieve)
+
 
 ## What did we achieve
 

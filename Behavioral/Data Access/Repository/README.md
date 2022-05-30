@@ -2,6 +2,19 @@
 
 A repository encapsulates the data access so the consumer no longer has to know about the underlying data structure
 
+## Table of Contents
+- [Repository](#repository)
+  - [Table of Contents](#table-of-contents)
+  - [Structure](#structure)
+    - [Without Repository](#without-repository)
+      - [Problems](#problems)
+    - [With Repository](#with-repository)
+      - [Benefits](#benefits)
+      - [Drawbacks](#drawbacks)
+  - [To keep in mind](#to-keep-in-mind)
+  - [Examples](#examples)
+
+
 
 ## Structure
 

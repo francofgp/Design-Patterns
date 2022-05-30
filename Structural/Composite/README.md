@@ -2,6 +2,15 @@
 
 Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects
 
+## Table of Contents
+- [Composite](#composite)
+  - [Table of Contents](#table-of-contents)
+  - [Structure](#structure)
+    - [Components](#components)
+  - [Benefits](#benefits)
+  - [Examples](#examples)
+
+
 ## Structure
 
 Real world example 

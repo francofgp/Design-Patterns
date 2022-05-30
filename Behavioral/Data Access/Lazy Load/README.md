@@ -4,6 +4,20 @@ Don’t eagerly load data you won’t use!
 
 Load things, only when some requests that particular property. And lazy load patterns come in 👇
 
+## Table of Contents
+- [Lazy Load](#lazy-load)
+  - [Table of Contents](#table-of-contents)
+  - [Different Flavors of Lazy Loading](#different-flavors-of-lazy-loading)
+    - [Lazy Initialization](#lazy-initialization)
+      - [Drawbacks](#drawbacks)
+    - [Value Holders](#value-holders)
+      - [Benefits](#benefits)
+    - [Virtual Proxies](#virtual-proxies)
+    - [Ghost Objects](#ghost-objects)
+  - [Examples](#examples)
+
+
+
 ## Different Flavors of Lazy Loading
 
 - Lazy Initialization 

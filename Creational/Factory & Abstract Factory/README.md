@@ -2,6 +2,21 @@
 
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
+
+## Table of Contents
+- [Factory](#factory)
+  - [Table of Contents](#table-of-contents)
+  - [What Is a Factory?](#what-is-a-factory)
+  - [Purpose of the factory](#purpose-of-the-factory)
+  - [Factory Pattern Flavors](#factory-pattern-flavors)
+  - [Facory Pattern Characteristicas](#facory-pattern-characteristicas)
+    - [Simple Factory Example](#simple-factory-example)
+    - [Factory Method](#factory-method)
+    - [Abstract factory](#abstract-factory)
+  - [Summary](#summary)
+  - [Examples](#examples)
+
+
 ## What Is a Factory?
 A factory is an object for creating objects
 

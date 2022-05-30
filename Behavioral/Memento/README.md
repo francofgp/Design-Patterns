@@ -4,6 +4,25 @@
 
 A memento holds an object’s internal state so the object can be restored to this state later.
 
+## Table of Contents
+- [Memento](#memento)
+  - [What is a memento?](#what-is-a-memento)
+  - [Table of Contents](#table-of-contents)
+  - [Where can I apply the memento Pattern?](#where-can-i-apply-the-memento-pattern)
+  - [What problem does memento solve?](#what-problem-does-memento-solve)
+  - [Structure](#structure)
+    - [Collaborators](#collaborators)
+  - [Working with Memento](#working-with-memento)
+  - [Undo Operations](#undo-operations)
+  - [Analysis](#analysis)
+  - [Key Principles when applying Memento](#key-principles-when-applying-memento)
+  - [Alternate Approach](#alternate-approach)
+    - [Reverse Operations](#reverse-operations)
+    - [Storing Diff (Differences)](#storing-diff-differences)
+  - [Related Design Patterns](#related-design-patterns)
+  - [Examples](#examples)
+
+
 ## Where can I apply the memento Pattern?
 
 - Saving state in game

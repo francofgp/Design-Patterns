@@ -1,5 +1,7 @@
 # Bridge
 
+
+
 Its purpose is to decouple an abstraction from its implementation so that the two can vary independently
 
 ![intro](/Behavioral/Bridge/assets/bridge%20intro.png)
@@ -7,6 +9,15 @@ Its purpose is to decouple an abstraction from its implementation so that the tw
 What challenges the bridge pattern help to overcome?
 
 The bridge pattern replaces complexity multiplication with complexity addition, and thus bring the exponential growth of that complexity under control.
+
+## Table of Contents
+- [Bridge](#bridge)
+  - [Table of Contents](#table-of-contents)
+  - [Explanation](#explanation)
+    - [Another definition](#another-definition)
+    - [Alternative implementation](#alternative-implementation)
+    - [**Prefer composition over inheritance**](#prefer-composition-over-inheritance)
+  - [Examples](#examples)
 
 
 ## Explanation

@@ -4,6 +4,22 @@
 
 State is the condition of something variable.
 
+
+## Table of Contents
+- [State](#state)
+  - [What is a state?](#what-is-a-state)
+  - [Table of Contents](#table-of-contents)
+    - [Questions of State (Examples)](#questions-of-state-examples)
+  - [The State Design Pattern](#the-state-design-pattern)
+  - [Problem](#problem)
+  - [Advantages](#advantages)
+  - [Disadvantages](#disadvantages)
+    - [They naive approach](#they-naive-approach)
+  - [Addressing the challenges](#addressing-the-challenges)
+  - [Elements of the State Pattern](#elements-of-the-state-pattern)
+  - [Examples](#examples)
+
+
 ### Questions of State (Examples)
 
 Is an order in an order processing application:

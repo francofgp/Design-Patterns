@@ -5,6 +5,10 @@ A singleton is a class designed to only ever have one instance.
 ![Uml Diagram](/Creational/Singleton/Singleton/assets/uml.png)
 The singleton pattern make the class itself responsible for enforcing Singleton behavior
 
+## Table of Contents
+- [Singleton](#singleton)
+  - [Table of Contents](#table-of-contents)
+  - [Single Instance Examples](#single-instance-examples)
 
 ## Single Instance Examples
 

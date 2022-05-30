@@ -2,6 +2,14 @@
 
 Façade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
 
+## Table of Contents
+- [Façade](#façade)
+  - [Table of Contents](#table-of-contents)
+  - [Problem](#problem)
+  - [When to use Façade](#when-to-use-façade)
+  - [Examples](#examples)
+
+
 ## Problem
 
 You may heard of the big ball of mud class. It is a class that tries to solve all of the world problems, it is too bloated

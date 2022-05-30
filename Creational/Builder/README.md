@@ -14,6 +14,15 @@ Director class handles actual object creation
 
 ![Uml Diagram](/Creational/Builder/assets/uml.png)
 
+## Table of Contents
+- [Builder](#builder)
+  - [Table of Contents](#table-of-contents)
+  - [When to use it](#when-to-use-it)
+  - [Keep in mind](#keep-in-mind)
+  - [Implications](#implications)
+  - [Examples](#examples)
+
+
 
 ## When to use it
 

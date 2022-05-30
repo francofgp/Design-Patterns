@@ -3,6 +3,20 @@ Specification pattern is a pattern that allows us to encapsulate some piece of d
 
 
 The basic idea behind this pattern is that when you have some piece of domain knowledge you can encapsulate this knowledge into a single unit, specification, and then reuse in different parts of your code base
+
+## Table of Contents
+- [Specification](#specification)
+  - [Table of Contents](#table-of-contents)
+  - [Use cases](#use-cases)
+  - [Advantages](#advantages)
+  - [Purpose of the specification pattern:](#purpose-of-the-specification-pattern)
+  - [Proper encapsulation and efficient database queries](#proper-encapsulation-and-efficient-database-queries)
+  - [General guidelines](#general-guidelines)
+  - [Combining specifications together](#combining-specifications-together)
+  - [When not to use the Specification pattern](#when-not-to-use-the-specification-pattern)
+  - [Examples](#examples)
+
+
 ## Use cases
 
 - In-memory validation

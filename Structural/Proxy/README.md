@@ -1,5 +1,17 @@
 # Proxy
 
+## Table of Contents
+- [Proxy](#proxy)
+  - [Table of Contents](#table-of-contents)
+  - [Problem](#problem)
+  - [Structure](#structure)
+    - [Option 1](#option-1)
+    - [Option 2](#option-2)
+  - [Proxy Variants](#proxy-variants)
+  - [To keep in mind](#to-keep-in-mind)
+  - [Related Principles](#related-principles)
+  - [Examples](#examples)
+
 ## Problem
 
 Need to control access to a type for performance, security, or other reasons.

@@ -7,6 +7,11 @@ Command is a behavioral design pattern that turns a request into a stand-alone o
 The command pattern can easily be leveraged to allow undo or redo functionality
 
 
+## Table of Contents
+- [Command](#command)
+  - [Table of Contents](#table-of-contents)
+  - [What did we achieve](#what-did-we-achieve)
+  - [Drawbacks](#drawbacks)
 
 ![Uml Diagram2](/Behavioral/Command/assets/command1.png)
 

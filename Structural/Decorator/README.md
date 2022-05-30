@@ -7,6 +7,15 @@ A structural design pattern used for dynamically adding behavior to a class, wit
 ![Uml Diagram2](/Structural/Decorator/assets/uml.png)
 
 
+## Table of Contents
+- [Decorator](#decorator)
+  - [Table of Contents](#table-of-contents)
+  - [Example explanation](#example-explanation)
+    - [Using Decorator Objects](#using-decorator-objects)
+  - [To keep in mind](#to-keep-in-mind)
+  - [Use Cases](#use-cases)
+  - [Examples](#examples)
+
 
 ## Example explanation
 

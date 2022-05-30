@@ -7,6 +7,15 @@ Use the Null Object pattern when
 - some collaborator instances should do nothing
 - you want to abstract the handling of null away from the client
 
+
+## Table of Contents
+- [Null Object](#null-object)
+  - [Table of Contents](#table-of-contents)
+  - [Problem](#problem)
+  - [Advantages](#advantages)
+  - [Examples](#examples)
+
+
 ## Problem
 Given that an object reference may be optionally null, and that the result of a null check is to do nothing or use some default value, how can the absence of an object — the presence of a null reference — be treated transparently?
 
