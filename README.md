@@ -9,7 +9,7 @@ In software engineering, a software design pattern is a general, reusable soluti
 - Deliver better software
 - Advance your career
 
-
+ 
 # Should you memorize all of these?
 Master the design patters is not easy, there are several stages of learning in this journey:
 
